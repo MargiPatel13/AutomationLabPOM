@@ -1,5 +1,7 @@
 package com.qa.opencart.pages;
 
-public class AddCartPage {
+import org.openqa.selenium.By;
 
+public class AddCartPage {
+	By cart = By.id("cart");
 }
